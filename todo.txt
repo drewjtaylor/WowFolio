@@ -1,0 +1,21 @@
+Upload, actually attach resume
+
+Upload my image as icon
+
+Decide a color using the picker, and update the code
+
+
+
+Download/update pictures for projects
+
+
+Find a way to summarize Weekly Dire project details
+
+
+Finish going through main projects and listing their details.
+
+
+
+Find a way to demonstrate the node-events server better.
+Create a mongodb atlas database for the node-events server and connect it.
+Maybe make a postman collection that's easily shareable as well?

@@ -58,7 +58,7 @@
         </li>
       </ul>
     </div>
-    <button class="btn btn-theme btn-sm">Download Resume</button>
+    <a href="/Resume.pdf" class="btn btn-theme btn-sm">My Resume</a>
   </header>
 
   <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
@@ -78,8 +78,8 @@
             I'm Andrew Taylor! A Web Developer Building Awesome Webapps And Websites That Powers The Internet
           </span>
         </h1>
-        <button class="btn btn-theme home-hero__btn-theme">Projects</button>
-        <button class="btn btn-inv home-hero__btn-theme">Contact</button>
+        <a href="#projects" class="btn btn-theme home-hero__btn-theme">Projects</a>
+        <a href="#contact" class="btn btn-inv home-hero__btn-theme">Contact</a>
       </div>
     </div>
   </section>
@@ -112,7 +112,7 @@
                 skills and knowledge until I can be a developer full-time.
               </span>
             </p>
-            <button class="btn btn-theme about__btn-theme">Projects</button>
+            <a href="#projects" class="btn btn-theme about__btn-theme">Projects</a>
           </div>
           <div class="about__skill-info">
             <h3 class="heading-quaternary about__heading-quaternary">
@@ -177,7 +177,7 @@
       <h2 class="heading-secondary projects__heading-secondary">
         <span class="heading-secondary__sm"> Projects 🛠️</span>
         <span class="heading-secondary__main">
-          Here are some of my projects highlighting my growth
+          Here are some projects highlighting my growth
         </span>
       </h2>
       <div class="main-section__content">
@@ -197,7 +197,7 @@
               <h3 class="heading-tertiary projects__list-item-heading-tertiary">
                 WeeklyDire
               </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
+              <hr class="projects__title-text-divider" />
               <p class="text-primary projects__list-item-text-primary">
                 <span>
                   "WeeklyDire" is a fake news site (not a fake-news site.) 
@@ -220,8 +220,6 @@
             </div>
           </div>
 
-          <!-- <hr class="projects__title-text-divider" /> -->
-
           <!-- Formation Church Project section -->
           <div class="projects__list-item projects__list-item--inv">
             <div class="projects__list-item-details">
@@ -231,7 +229,7 @@
               <h3 class="heading-tertiary projects__list-item-heading-tertiary">
                 Formation Church
               </h3>
-
+              <hr class="projects__title-text-divider" />
               <p class="text-primary projects__list-item-text-primary">
                 <span>
                   I created Formation church while learning how to use React.
@@ -299,7 +297,7 @@
                 <img src="./assets/events-postman.jpg" alt="Project Image" class="projects__list-item-img" />
               </div>
               <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
+                Express Server
               </h3>
               <!-- <hr class="projects__title-text-divider" /> -->
 
@@ -324,10 +322,47 @@
               <span class="projects__list-item-count-end-dot"> </span>
             </div>
           </div>
+
+          <!-- Qwixx scoreboard Projects Section -->
+          <div class="projects__list-item">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/qwixx-screenshot.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Qwixx Scoreboard
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This scoreboard tracker was made for the dice game, Qwixx.
+                </span>
+                <span>
+                  It features a built-in dice roller, auto-blocking illegal moves, and constant score updates.
+                </span>
+                <span>
+                  This iteration also includes undo and redo buttons. While this could normally be a comlicated
+                  task, React with Redux made it simple because every change includes a new "state," so undo and
+                  redo just means going forward or backward through the states that are saved.
+                </span>
+              </p>
+              <a href="https://drewjtaylor.github.io/qwixxboard-redux/" target="_blank" rel="noopener noreferrer" class="btn btn-theme projects__btn-theme">
+                Live Link
+              </a>
+              <a href="https://github.com/drewjtaylor/qwixxboard-redux" target="_blank" rel="noopener noreferrer" class="btn btn-inv projects__btn-inv">Code Link</a>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 5 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Contact form -->
   <section id="contact" class="contact main-section">
     <div class="main-container">
       <h2 class="heading-secondary">
@@ -359,6 +394,8 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
   <footer class="main-footer">
     <div class="main-footer__upper">
       <div class="main-container">
@@ -384,18 +421,9 @@
               alt="" class="main-footer__social-link-icon" />
           </a>
           <a href="#" class="main-footer__social-link">
-            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="#" class="main-footer__social-link">
-            <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="#" class="main-footer__social-link">
             <img
               src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
               alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="#" class="main-footer__social-link">
-            <img src="./assets/icons8-pinterest-64.png" alt="" class="main-footer__social-link-icon" />
           </a>
         </div>
       </div>
@@ -404,9 +432,8 @@
       <div class="main-container">
         <p class="main-footer__bottom-txt">
           <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
-          <a target="_blank" href="https://github.com/rammcodes/wowfolio">WowFolio</a> Open-Source Template
-          <script>document.write(new Date().getFullYear())</script>. Made by
-          <a target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+          Created by altering the <a target="_blank" href="https://github.com/rammcodes/wowfolio">WowFolio</a> Template
+          <script>document.write(new Date().getFullYear())</script>. Because not re-inventing the wheel is also a skill.
         </p>
       </div>
     </div>

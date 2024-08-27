@@ -1,4 +1,4 @@
-# Wowfolio 🦄
+# Wowfolio
 
 ## A Simple & Clean Portfolio Template For Developers 👨‍💻
 
@@ -7,6 +7,9 @@
   <br>
 </div>
 
+<br/>
+
+Live status: 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8a68ddd6-dc6d-4c1d-aa15-7fdca01a966c/deploy-status)](https://app.netlify.com/sites/drewsfolio/deploys)
 
 <br/>
@@ -51,7 +54,6 @@ colours and see which colour fits your needs so you can use that colour for your
 
 <br/>
 
-
 ---
 
 <br>
@@ -60,7 +62,7 @@ colours and see which colour fits your needs so you can use that colour for your
 
 **Ram Maheshwari ⚡**
 
-Support him by giving me a Follow/Subscribe on my Social Accounts 🔥
+Support him on his by giving him a Follow/Subscribe on his Social Accounts 🔥
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rammcodes) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/rammcodes) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rammcodes_) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@rammcodes)
 <br>

@@ -6,7 +6,7 @@
 }
 
 :root {
-  --themeColor: 29, 161, 242;
+  --themeColor: 0, 102, 7;
   /* Theme Color in (R,G,B) format */
 }
 
@@ -506,7 +506,7 @@ a {
 /* Skills Showcase */
 
 .skills-showcase {
-  background: rgba(247, 247, 247, 1);
+  background: rgb(133, 133, 133);
   padding: 5rem 3rem;
 }
 

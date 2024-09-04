@@ -18,9 +18,9 @@
   <header class="main-header">
     <div class="main-header__logo-container">
       <div class="main-header__logo-img-cont">
-        <!-- <img
-          src="https://d33wubrfki0l68.cloudfront.net/32c48e23e828c42a99a37db81e2a91d7c8eed4de/d134a/assets/png/ram-maheshwari.png"
-          alt="logo Image" class="main-header__logo-img" /> -->
+        <img
+          src="./assets/profpic.jpg"
+          alt="logo Image" class="main-header__logo-img" />
       </div>
       <h4 class="main-header__logo-text">Andrew Taylor</h4>
     </div>
@@ -62,11 +62,11 @@
   </header>
 
   <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
-  <div class="themeClrSelector">
+  <!-- <div class="themeClrSelector">
     <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
     <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
       class="themeClrSelector__img" />
-  </div>
+  </div> -->
   <!---->
 
   <section id="home-hero" class="home-hero">
@@ -75,7 +75,11 @@
         <h1 class="heading-primary home-hero__heading-primary">
           <span class="heading-primary__sm"> Hello 👋</span>
           <span class="heading-primary__main">
-            I'm Andrew Taylor! A Web Developer Building Awesome Webapps And Websites That Powers The Internet
+            I'm Andrew Taylor! 
+          </span>
+          <br/>
+          <span class="heading-primary__main">
+            Developer. Dad. Owner of too many board games. 
           </span>
         </h1>
         <a href="#projects" class="btn btn-theme home-hero__btn-theme">Projects</a>
@@ -85,11 +89,11 @@
   </section>
   <section id="about" class="about main-section">
     <div class="main-container">
-      <h2 class="heading-secondary projects__heading-secondary">
+      <!-- <h2 class="heading-secondary projects__heading-secondary">
         <span class="heading-secondary__sm"> About</span>
         <span class="heading-secondary__main">
-          When I'm not playing with (or being chased by) my 5 children, I'm developing my skills and working on projects.
-      </h2>
+          Developer. Dad. 
+      </h2> -->
       <div class="main-section__content">
         <div class="about__info">
           <div class="about__main-info">
@@ -98,7 +102,7 @@
             </h3>
             <p class="text-primary about__text-primary">
               <span>
-                After working in a State Attorney's Office for 13 years, I thought, 
+                After working in an attorney's Office for 13 years, I thought, 
                 "I wish I had gotten into programming 5 years ago... 
                 but I really don't want to say that in another 5 years!"
               </span>
@@ -107,9 +111,9 @@
                 to take the next step and attend Nucamp, a coding bootcamp.
               </span>
               <span>
-                I currently work in the telecommunications field, working
+                After that I goto hired in the telecommunications field, working
                 on projects in my spare time and continually stretching my
-                skills and knowledge until I can be a developer full-time.
+                skills and knowledge in development.
               </span>
             </p>
             <a href="#projects" class="btn btn-theme about__btn-theme">Projects</a>
@@ -201,16 +205,17 @@
               <p class="text-primary projects__list-item-text-primary">
                 <span>
                   "WeeklyDire" is a fake news site (not a fake-news site.) 
-                  Instead of doing countless small projects, I decided to spend
+                  Instead of doing more small projects, I decided to spend
                   time developing new features and learning new skills on a single
                   project. As a result, what began as a small news/blog site with 
                   a few links turned into a full-stack cloud-deployed app.
                 </span>
                 <span>
                     Developed with the MERN stack, it features lazy-loading, authentication 
-                    using passport.js, a form for creators to add articles, a page for admin users
-                    to perform administrative functions, and Paypal integration allow users 
-                    to upgrade to premium. 
+                    using passport.js, user-dependent functionality such as a form for 
+                    creators to add articles and  a page for admin users
+                    to perform administrative functions. And soon to come--Paypal integration 
+                    to upgrade accouts to premium!
                 </span>
             </p>
             <a href="https://weeklydire.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-theme projects__btn-theme">
@@ -303,18 +308,19 @@
 
               <p class="text-primary projects__list-item-text-primary">
                 <span>
-                  This Express server was made to track users and events and store the information using MongoDB locally.
-                </span>
+                    This Express server was made to track users and events and store the information using MongoDB locally.
+                  </span>
+                  <span>
+                    It is a public API, so other sites could connect to this database to get and update event information. 
+                    To test it with a Postman account, click "Run in Postman" and try out the endpoints.
+                  </span>
                 <!-- <br />
                   <br /> -->
-                <span>
-                  
-                </span>
               </p>
-              <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-theme projects__btn-theme">
-                Live Link
+              <a href="https://app.getpostman.com/run-collection/22954547-25bfee63-e883-4bcb-a3e6-851f62719919?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D22954547-25bfee63-e883-4bcb-a3e6-851f62719919%26entityType%3Dcollection%26workspaceId%3Ddc2e3761-fe20-4fc6-8e76-fa61671c14b3" target="_blank" rel="noopener noreferrer" class="btn btn-theme projects__btn-theme">
+                Run in Postman
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-inv projects__btn-inv">Code Link</a>
+              <a href="https://github.com/drewjtaylor/drews-node-project" target="_blank" rel="noopener noreferrer" class="btn btn-inv projects__btn-inv">Code Link</a>
             </div>
             <div class="projects__list-item-count">
               <span class="projects__list-item-count-num"> 4 </span>

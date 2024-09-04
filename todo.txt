@@ -1,19 +1,11 @@
 Upload, actually attach resume
 
-Upload my image as icon
 
 Decide a color using the picker, and update the code
 
 
 
-Download/update pictures for projects
-
 Get a better tag line other than the chaisng 5 kids thing
-
-Find a way to summarize Weekly Dire project details
-
-
-Finish going through main projects and listing their details.
 
 
 Find a way to demonstrate the node-events server better.
